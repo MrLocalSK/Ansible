@@ -1,0 +1,7 @@
+---
+- hosts: appserver
+  become: true
+  ignore_errors: True
+  roles:
+    - docker
+    - google_chrome

@@ -1,0 +1,4 @@
+---
+# defaults file for chromedriver
+apt_file: /etc/apt/sources.list.d/google-chrome.list
+chromedriver_install_as_service: false
